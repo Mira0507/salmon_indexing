@@ -50,7 +50,7 @@ wget -c $genome -O indexing/GRCh38.v35.genome.fa.gz
 # Unzip the reference files manually!!!
 ```
 
-### 2. Create a txt file storing decoys
+### 2. Creating a txt file storing decoys
 
 ```bash
 #!/bin/bash
@@ -67,7 +67,7 @@ sed -i.bak -e 's/>//g' decoys.txt
 cd .. 
 ```
 
-### 3. Concatenate transcriptome and genome 
+### 3. Concatenating transcriptome and genome 
 
 ```bash
 
