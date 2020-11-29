@@ -58,6 +58,7 @@ cd ..
 ### 3. Concatenating transcriptome and genome 
 
 ```bash
+#!/bin/bash
 
 # Assign location of transcripts and genome reference files 
 transcripts=indexing/*transcripts.fa 
