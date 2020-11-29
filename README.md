@@ -84,7 +84,7 @@ cat $transcripts $genome > gentrome.fa
 ### 4. Indexing 
 
 ```bash
-#!/bin/bas#!/bin/bash
+#!/bin/bash
 
 # Move to the directory where gentrome.fa and decoys.txt files have been created 
 cd indexing
