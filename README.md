@@ -12,7 +12,6 @@ channels:
   - defaults 
 dependencies:
   - salmon=1.4.0 
-  - r-base =4.0.2
   - bedtools 
   - gawk 
 
